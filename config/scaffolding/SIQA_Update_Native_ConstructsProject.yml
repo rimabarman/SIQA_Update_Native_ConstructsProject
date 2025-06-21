@@ -88,6 +88,10 @@ services:
   packages:
   - name: SIQA_Update_Native_ConstructsProject
     version: "1.0"
+- serviceName: project.siqa_update_native_constructs.integrations:pc2
+  packages:
+  - name: SIQA_Update_Native_ConstructsProject
+    version: "1.0"
 - serviceName: project.siqa_update_native_constructs.integrations:pc3
   packages:
   - name: SIQA_Update_Native_ConstructsProject
