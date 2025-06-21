@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/rimabarman
   gitUsername: rimabarman
   gitBranch: main
+services:
+- serviceName: project.siqa_update_native_constructs.integrations:Simple_Flow
+  packages:
+  - name: SIQA_Update_Native_ConstructsProject
+    version: "1.0"
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
