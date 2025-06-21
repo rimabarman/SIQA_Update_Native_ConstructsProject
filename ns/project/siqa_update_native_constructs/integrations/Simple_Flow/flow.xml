@@ -260,7 +260,7 @@
 </INVOKE>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>Drop unwanted variables</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
