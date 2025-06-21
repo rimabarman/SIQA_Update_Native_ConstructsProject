@@ -399,5 +399,9 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
+
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT>Drop unwanted variables</COMMENT>
+</MAP>
 </SEQUENCE>
 </FLOW>
