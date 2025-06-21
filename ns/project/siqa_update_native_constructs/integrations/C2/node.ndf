@@ -25,7 +25,7 @@
             <value name="field_usereditable">false</value>
           </record>
           <value name="is_public">false</value>
-          <value name="field_name">InC4</value>
+          <value name="field_name">InC2</value>
           <value name="field_type">string</value>
           <value name="field_dim">0</value>
           <value name="nillable">true</value>
@@ -63,63 +63,58 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">flowqa</value>
-    <value name="lastModifiedDate">1750426950793</value>
-    <value name="displayName">C4</value>
+    <value name="lastModifiedDate">1750218728595</value>
+    <value name="displayName">C2</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">CONTROLS</value>
-        <value name="name">IF</value>
-        <record name="config" javaclass="com.wm.util.Values">
-          <value name="displayLabel">field_name</value>
-          <value name="toolTipLabel">name</value>
-          <Boolean name="showLeafLabelOnly">true</Boolean>
-          <Boolean name="allowConstantValueInput">true</Boolean>
-          <Boolean name="focusOnLoad">true</Boolean>
-          <Boolean name="specialCharsAllowed">false</Boolean>
-          <Boolean name="resetOnfocusout">true</Boolean>
-          <Boolean name="displayIcon">true</Boolean>
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
+          <null name="services"/>
         </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">debugLog</value>
+          <value name="serviceName">pub.flow:debugLog</value>
+          <value name="transformerSupport">false</value>
+        </record>
+        <number name="ui_step_index" type="Long">1</number>
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
         <value name="nodePathForDebug">0</value>
       </record>
-      <record name="/0/0" javaclass="com.wm.util.Values">
-        <value name="name">IF</value>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="name">SWITCH</value>
         <value name="itemType">CONTROLS</value>
-        <value name="nodePathNew">0.0</value>
-        <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">1</number>
-        <value name="nodePathForDebug">0.0</value>
-      </record>
-      <record name="/0/0/0" javaclass="com.wm.util.Values">
-        <value name="itemType">CONTROLS</value>
-        <value name="name">IF</value>
-        <record name="config" javaclass="com.wm.util.Values">
-          <value name="displayLabel">field_name</value>
-          <value name="toolTipLabel">name</value>
-          <Boolean name="showLeafLabelOnly">true</Boolean>
-          <Boolean name="allowConstantValueInput">true</Boolean>
-          <Boolean name="focusOnLoad">true</Boolean>
-          <Boolean name="specialCharsAllowed">false</Boolean>
-          <Boolean name="resetOnfocusout">true</Boolean>
-          <Boolean name="displayIcon">true</Boolean>
+        <value name="nodePathNew">1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">2</number>
+        <record name="value" javaclass="com.wm.util.Values">
+          <value name="name">/InC2</value>
+          <value name="type">string</value>
+          <value name="dim">0</value>
+          <Boolean name="isLink">false</Boolean>
+          <value name="field_name">InC2</value>
+          <null name="wrapper_type"/>
         </record>
-        <value name="nodePathNew">0.0.0</value>
-        <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">2</number>
-        <value name="nodePathForDebug">0.0.0</value>
+        <value name="nodePathForDebug">1</value>
       </record>
-      <record name="/0/0/0/0" javaclass="com.wm.util.Values">
-        <value name="name">IF</value>
+      <record name="/1/0" javaclass="com.wm.util.Values">
+        <value name="name">CASE</value>
         <value name="itemType">CONTROLS</value>
-        <value name="nodePathNew">0.0.0.0</value>
+        <Boolean name="is_empty">false</Boolean>
+        <value name="nodePathNew">1.0</value>
         <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">2</number>
-        <value name="nodePathForDebug">0.0.0.0</value>
+        <number name="lineNumberForDebug" type="Long">3</number>
+        <value name="nodePathForDebug">1.0</value>
       </record>
-      <record name="/0/0/0/0/0" javaclass="com.wm.util.Values">
+      <record name="/1/0/0" javaclass="com.wm.util.Values">
         <null name="name"/>
         <value name="itemType">SERVICES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
@@ -133,36 +128,36 @@
           <value name="transformerSupport">true</value>
         </record>
         <number name="ui_step_index" type="Long">4</number>
-        <value name="nodePathNew">0.0.0.0.0</value>
+        <value name="nodePathNew">1.0.0</value>
         <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">3</number>
-        <null name="mapSet"/>
-        <null name="outputMapSet"/>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
-        <value name="nodePathForDebug">0.0.0.0.0</value>
-      </record>
-      <record name="/0/0/0/0/1" javaclass="com.wm.util.Values">
-        <value name="name">C5</value>
-        <value name="displayName">C5</value>
-        <value name="itemType">INTEGRATIONS</value>
-        <number name="ui_step_index" type="Long">4</number>
-        <value name="nodePathNew">0.0.0.0.1</value>
-        <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">4</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
         <Boolean name="serviceReferenceResolved">true</Boolean>
-        <value name="nodePathForDebug">0.0.0.0.1</value>
+        <value name="nodePathForDebug">1.0.0</value>
       </record>
-      <record name="/0/0/0/1" javaclass="com.wm.util.Values">
-        <value name="name">ELSEIF</value>
-        <value name="itemType">CONTROLS</value>
-        <value name="nodePathForDebug">0.0.0.1</value>
-        <value name="nodePathNew">0.0.1.0</value>
-        <number name="nodeIndex" type="Long">0</number>
+      <record name="/1/0/1" javaclass="com.wm.util.Values">
+        <value name="name">C3</value>
+        <value name="displayName">C3</value>
+        <value name="itemType">INTEGRATIONS</value>
+        <number name="ui_step_index" type="Long">5</number>
+        <value name="nodePathNew">1.0.1</value>
+        <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">5</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">1.0.1</value>
       </record>
-      <record name="/0/0/0/1/0" javaclass="com.wm.util.Values">
+      <record name="/1/1" javaclass="com.wm.util.Values">
+        <value name="name">CASE</value>
+        <value name="itemType">CONTROLS</value>
+        <value name="nodePathForDebug">1.1</value>
+        <value name="nodePathNew">1.1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">6</number>
+      </record>
+      <record name="/1/1/0" javaclass="com.wm.util.Values">
         <null name="name"/>
         <value name="itemType">SERVICES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
@@ -176,87 +171,26 @@
           <value name="transformerSupport">true</value>
         </record>
         <Boolean name="serviceReferenceResolved">true</Boolean>
-        <value name="nodePathForDebug">0.0.0.1.0</value>
-        <value name="nodePathNew">0.0.1.0.0</value>
-        <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">6</number>
-      </record>
-      <record name="/0/0/0/2" javaclass="com.wm.util.Values">
-        <value name="name">ELSE</value>
-        <value name="itemType">CONTROLS</value>
-        <value name="nodePathForDebug">0.0.0.2</value>
-        <value name="nodePathNew">0.0.2.0</value>
+        <value name="nodePathForDebug">1.1.0</value>
+        <value name="nodePathNew">1.1.0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">7</number>
       </record>
-      <record name="/0/0/0/2/0" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">SERVICES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">Date</value>
-          <value name="groupName">date</value>
-          <null name="services"/>
-        </record>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">currentNanoTime</value>
-          <value name="serviceName">pub.date:currentNanoTime</value>
-          <value name="transformerSupport">true</value>
-        </record>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
-        <value name="nodePathForDebug">0.0.0.2.0</value>
-        <value name="nodePathNew">0.0.2.0.0</value>
-        <number name="nodeIndex" type="Long">0</number>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <value name="name">BRANCH</value>
+        <value name="itemType">CONTROLS</value>
+        <value name="nodePathNew">2</value>
+        <number name="nodeIndex" type="Long">2</number>
         <number name="lineNumberForDebug" type="Long">8</number>
       </record>
-      <record name="/0/1" javaclass="com.wm.util.Values">
-        <value name="name">ELSE</value>
+      <record name="/2/0" javaclass="com.wm.util.Values">
+        <value name="name">EXPRESSION</value>
         <value name="itemType">CONTROLS</value>
-        <value name="nodePathForDebug">0.1</value>
-        <value name="nodePathNew">1.0</value>
+        <value name="nodePathNew">2.0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">9</number>
       </record>
-      <record name="/0/1/0" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">SERVICES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">Date</value>
-          <value name="groupName">date</value>
-          <null name="services"/>
-        </record>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">currentNanoTime</value>
-          <value name="serviceName">pub.date:currentNanoTime</value>
-          <value name="transformerSupport">true</value>
-        </record>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
-        <value name="nodePathForDebug">0.1.0</value>
-        <value name="nodePathNew">1.0.0</value>
-        <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">10</number>
-      </record>
-      <record name="/1" javaclass="com.wm.util.Values">
-        <value name="itemType">CONTROLS</value>
-        <value name="name">IF</value>
-        <record name="config" javaclass="com.wm.util.Values">
-          <value name="displayLabel">field_name</value>
-          <value name="toolTipLabel">name</value>
-          <Boolean name="showLeafLabelOnly">true</Boolean>
-          <Boolean name="allowConstantValueInput">true</Boolean>
-          <Boolean name="focusOnLoad">true</Boolean>
-          <Boolean name="specialCharsAllowed">false</Boolean>
-          <Boolean name="resetOnfocusout">true</Boolean>
-          <Boolean name="displayIcon">true</Boolean>
-        </record>
-        <value name="nodePathNew">2</value>
-        <number name="nodeIndex" type="Long">2</number>
-        <number name="lineNumberForDebug" type="Long">11</number>
-      </record>
-      <record name="/1/0" javaclass="com.wm.util.Values">
-        <value name="name">IF</value>
-        <value name="itemType">CONTROLS</value>
-      </record>
-      <record name="/1/0/0" javaclass="com.wm.util.Values">
+      <record name="/2/0/0" javaclass="com.wm.util.Values">
         <null name="name"/>
         <value name="itemType">SERVICES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
@@ -269,6 +203,99 @@
           <value name="serviceName">pub.date:getCurrentDate</value>
           <value name="transformerSupport">true</value>
         </record>
+        <value name="nodePathNew">2.0.0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">10</number>
+      </record>
+      <record name="/2/1" javaclass="com.wm.util.Values">
+        <value name="name">EXPRESSION</value>
+        <value name="itemType">CONTROLS</value>
+        <value name="nodePathNew">2.1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">11</number>
+      </record>
+      <record name="/2/1/0" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Date</value>
+          <value name="groupName">date</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">currentNanoTime</value>
+          <value name="serviceName">pub.date:currentNanoTime</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <value name="nodePathNew">2.1.0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">12</number>
+      </record>
+      <record name="/3" javaclass="com.wm.util.Values">
+        <value name="name">DO</value>
+        <value name="itemType">CONTROLS</value>
+        <value name="nodePathNew">3</value>
+        <number name="nodeIndex" type="Long">3</number>
+        <number name="lineNumberForDebug" type="Long">13</number>
+      </record>
+      <null name="/3/0"/>
+      <record name="/3/0/0" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Date</value>
+          <value name="groupName">date</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">getCurrentDate</value>
+          <value name="serviceName">pub.date:getCurrentDate</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <value name="nodePathNew">3.0.0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">14</number>
+      </record>
+      <record name="/3/1" javaclass="com.wm.util.Values">
+        <value name="name">UNTIL</value>
+        <value name="itemType">CONTROLS</value>
+        <value name="nodePathNew">3.1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">15</number>
+      </record>
+      <record name="/3/1/0" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">EXIT</value>
+      </record>
+      <record name="/4" javaclass="com.wm.util.Values">
+        <value name="name">WHILE</value>
+        <value name="itemType">CONTROLS</value>
+        <value name="nodePathNew">4</value>
+        <number name="nodeIndex" type="Long">4</number>
+        <number name="lineNumberForDebug" type="Long">16</number>
+      </record>
+      <null name="/4/0"/>
+      <record name="/4/0/0" javaclass="com.wm.util.Values">
+        <value name="name">WHILEBLOCK</value>
+        <value name="itemType">CONTROLS</value>
+      </record>
+      <record name="/4/0/0/0" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Date</value>
+          <value name="groupName">date</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">getCurrentDate</value>
+          <value name="serviceName">pub.date:getCurrentDate</value>
+          <value name="transformerSupport">true</value>
+        </record>
+      </record>
+      <record name="/4/0/1" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">EXIT</value>
       </record>
     </record>
   </record>
