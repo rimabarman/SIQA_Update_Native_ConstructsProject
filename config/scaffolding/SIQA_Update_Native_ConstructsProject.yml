@@ -8,7 +8,7 @@ packages:
   gitUsername: rimabarman
   gitBranch: main
 services:
-- serviceName: project.siqa_update_native_constructs.integrations:BranchRepeat1
+- serviceName: project.siqa_update_native_constructs.integrations:BranchRepeat
   packages:
   - name: SIQA_Update_Native_ConstructsProject
     version: "1.0"
@@ -24,6 +24,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2061
+- serviceName: project.siqa_update_native_constructs.integrations:BranchRepeat1
+  packages:
+  - name: SIQA_Update_Native_ConstructsProject
+    version: "1.0"
 - serviceName: project.siqa_update_native_constructs.integrations:C4
   packages:
   - name: SIQA_Update_Native_ConstructsProject
@@ -44,6 +48,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2061
+- serviceName: project.siqa_update_native_constructs.integrations:SwitchCase1
+  packages:
+  - name: SIQA_Update_Native_ConstructsProject
+    version: "1.0"
 - serviceName: project.siqa_update_native_constructs.integrations:TryCatchFinally
   packages:
   - name: SIQA_Update_Native_ConstructsProject
