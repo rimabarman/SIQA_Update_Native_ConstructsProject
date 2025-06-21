@@ -198,14 +198,53 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">rimabarman</value>
-    <value name="lastModifiedDate">1750516592495</value>
+    <value name="lastModifiedDate">1750516756924</value>
     <value name="displayName">loop_Order_Details</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <value name="name">TRY</value>
+        <value name="itemType">CONTROLS</value>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
       </record>
+      <record name="/0/0" javaclass="com.wm.util.Values">
+        <value name="name">REPEAT</value>
+        <value name="itemType">CONTROLS</value>
+        <record name="in_array" javaclass="com.wm.util.Values">
+          <value name="name">/OrderData</value>
+          <value name="type">record</value>
+          <value name="dim">1</value>
+          <Boolean name="isLink">false</Boolean>
+          <value name="field_name">OrderData</value>
+          <null name="wrapper_type"/>
+        </record>
+        <value name="nodePathNew">0.0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">2</number>
+      </record>
+      <record name="/0/0/0" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">3</number>
+        <value name="nodePathNew">0.0.0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">3</number>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+      </record>
+      <null name="/0/0/0/0"/>
+      <null name="/0/0/0/1"/>
+      <null name="/0/0/0/2"/>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
