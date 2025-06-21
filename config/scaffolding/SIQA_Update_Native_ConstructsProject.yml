@@ -36,6 +36,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2061
+- serviceName: project.siqa_update_native_constructs.integrations:TryCatchFinally
+  packages:
+  - name: SIQA_Update_Native_ConstructsProject
+    version: "1.0"
 - serviceName: project.siqa_update_native_constructs.integrations:loop_Order_Details
   packages:
   - name: SIQA_Update_Native_ConstructsProject
