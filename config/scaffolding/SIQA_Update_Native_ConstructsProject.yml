@@ -28,7 +28,11 @@ services:
   packages:
   - name: SIQA_Update_Native_ConstructsProject
     version: "1.0"
-- serviceName: project.siqa_update_native_constructs.integrations:C4
+- serviceName: project.siqa_update_native_constructs.integrations:C1
+  packages:
+  - name: SIQA_Update_Native_ConstructsProject
+    version: "1.0"
+- serviceName: project.siqa_update_native_constructs.integrations:C2
   packages:
   - name: SIQA_Update_Native_ConstructsProject
     version: "1.0"
@@ -36,6 +40,14 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2061
+- serviceName: project.siqa_update_native_constructs.integrations:C3
+  packages:
+  - name: SIQA_Update_Native_ConstructsProject
+    version: "1.0"
+- serviceName: project.siqa_update_native_constructs.integrations:C4
+  packages:
+  - name: SIQA_Update_Native_ConstructsProject
+    version: "1.0"
 - serviceName: project.siqa_update_native_constructs.integrations:C5
   packages:
   - name: SIQA_Update_Native_ConstructsProject
