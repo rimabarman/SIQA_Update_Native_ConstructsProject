@@ -8,7 +8,7 @@ packages:
   gitUsername: rimabarman
   gitBranch: main
 services:
-- serviceName: project.siqa_update_native_constructs.integrations:Simple_Flow
+- serviceName: project.siqa_update_native_constructs.integrations:C4
   packages:
   - name: SIQA_Update_Native_ConstructsProject
     version: "1.0"
@@ -16,6 +16,22 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2061
+- serviceName: project.siqa_update_native_constructs.integrations:C5
+  packages:
+  - name: SIQA_Update_Native_ConstructsProject
+    version: "1.0"
+- serviceName: pub.date:currentNanoTime
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2061
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2061
+- serviceName: project.siqa_update_native_constructs.integrations:Simple_Flow
+  packages:
+  - name: SIQA_Update_Native_ConstructsProject
+    version: "1.0"
 - serviceName: pub.flow:getLastFailureCaught
   packages:
   - name: WmPublic
@@ -32,10 +48,6 @@ services:
   packages:
   - name: SIQA_Update_Native_ConstructsProject
     version: "1.0"
-- serviceName: pub.date:getCurrentDate
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2061
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
