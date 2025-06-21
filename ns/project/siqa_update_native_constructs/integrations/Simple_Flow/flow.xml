@@ -380,4 +380,14 @@
 </MAPDELETE>
 </MAP>
 </SEQUENCE>
+
+<SEQUENCE EXIT-ON="FAILURE" FORM="CATCH">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="Flow" SERVICE="pub.flow:getLastFailureCaught">
+  <COMMENT></COMMENT>
+</INVOKE>
+</SEQUENCE>
 </FLOW>
