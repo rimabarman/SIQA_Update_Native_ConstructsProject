@@ -28,6 +28,14 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2061
+- serviceName: project.siqa_update_native_constructs.integrations:newDAF
+  packages:
+  - name: SIQA_Update_Native_ConstructsProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2061
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
