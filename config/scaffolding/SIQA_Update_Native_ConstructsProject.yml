@@ -24,6 +24,10 @@ services:
   packages:
   - name: SIQA_Update_Native_ConstructsProject
     version: "1.0"
+- serviceName: pub.string:concat
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2061
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
