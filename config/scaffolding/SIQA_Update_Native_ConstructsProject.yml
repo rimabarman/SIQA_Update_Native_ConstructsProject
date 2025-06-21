@@ -40,7 +40,7 @@ services:
   packages:
   - name: SIQA_Update_Native_ConstructsProject
     version: "1.0"
-- serviceName: project.siqa_update_native_constructs.integrations:If1
+- serviceName: project.siqa_update_native_constructs.integrations:If
   packages:
   - name: SIQA_Update_Native_ConstructsProject
     version: "1.0"
@@ -48,6 +48,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2061
+- serviceName: project.siqa_update_native_constructs.integrations:If1
+  packages:
+  - name: SIQA_Update_Native_ConstructsProject
+    version: "1.0"
 - serviceName: project.siqa_update_native_constructs.integrations:Simple_Flow
   packages:
   - name: SIQA_Update_Native_ConstructsProject
